@@ -32,7 +32,7 @@
 
 /** Initialise potentiometer on the default SPI bus. */
 
-MCP41_Simple::MCP41_Simple()                  { _spiBus = &SPI;    }
+//MCP41_Simple::MCP41_Simple()                  { _spiBus = &SPI;    }
 
 /** Initialise potentiometer on a specified SPI bus.
  * 

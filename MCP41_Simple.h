@@ -33,8 +33,8 @@ class MCP41_Simple
     public:
       // In case you may have multiple SPI busses, you can supply one
       // on object creation, otherwise it will use the default
-      MCP41_Simple()                 ; 
-      MCP41_Simple(SPIClass &spiBus );
+      //MCP41_Simple()                 ; 
+      MCP41_Simple(SPIClass &spiBus = SPI);
       
       void begin   (uint8_t chipSelectPin);
       void setWiper(uint8_t value);
